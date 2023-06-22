@@ -5,7 +5,7 @@ export default class Navbar extends Component {
     return (
       <>    
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="/">Navbar</a>
+        <a className="navbar-brand" href="/">NewsMonkey</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
         </button>
@@ -14,16 +14,8 @@ export default class Navbar extends Component {
       <li className="nav-item active">
         <a className="nav-link" href="/">Home</a>
       </li>
-      <li className="nav-item dropdown">
-      <button className="btn btn-secondary btn-sm dropdown-toggle" type="button">
-    Dropdown button
-  </button>
-        <div className="dropdown-menu" >
-          <a className="dropdown-item" href="/">Action</a>
-          <a className="dropdown-item" href="/">Another action</a>
-          <a className="dropdown-item" href="/">Something else here</a>
-        </div>
-      </li>
+
+
     </ul>
   </div>
 </nav>
